@@ -1,0 +1,40 @@
+
+.header-class{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.ramen-items{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ramen-items img{
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+} 
+
+
+.Opening-Hours{
+    background-color:aliceblue;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.Opening-Hours td {
+    background-color:azure;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
