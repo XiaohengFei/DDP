@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/login.css')}}">
+
+</head>
+<body>
+  <div class="outer_box">
+    <div class="filterImg"></div>
+    <div class="login_box">
+      <h1><img src="{{ url_for('static', filename='assets/img/user.jpg')}}" alt=""></h1>
+      <p><i class="iconfont">&#xe74f;</i><input type="text" value="username"></p>
+      <p><i class="iconfont">&#xe774;</i><input type="text" value="Password"></p>
+      <p class="logIn_btn" >Login</p>
+      <div><span>Register Now</span><span>Forget Password</span></div>
+    </div>
+  </div>
+</body>
+</html>
+
